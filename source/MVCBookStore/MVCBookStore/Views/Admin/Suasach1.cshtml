@@ -1,0 +1,119 @@
+﻿@model MVCBookStore.Models.SACH
+
+@{
+    ViewBag.Title = "Suasach1";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Suasach1</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>SACH</legend>
+
+        @Html.HiddenFor(model => model.Masach)
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Tensach)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Tensach)
+            @Html.ValidationMessageFor(model => model.Tensach)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Donvitinh)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Donvitinh)
+            @Html.ValidationMessageFor(model => model.Donvitinh)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Dongia)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Dongia)
+            @Html.ValidationMessageFor(model => model.Dongia)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Mota)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Mota)
+            @Html.ValidationMessageFor(model => model.Mota)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Hinhminhhoa)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Hinhminhhoa)
+            @Html.ValidationMessageFor(model => model.Hinhminhhoa)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MaCD)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MaCD)
+            @Html.ValidationMessageFor(model => model.MaCD)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.MaNXB)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.MaNXB)
+            @Html.ValidationMessageFor(model => model.MaNXB)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Ngaycapnhat)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Ngaycapnhat)
+            @Html.ValidationMessageFor(model => model.Ngaycapnhat)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Soluongban)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Soluongban)
+            @Html.ValidationMessageFor(model => model.Soluongban)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.solanxem)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.solanxem)
+            @Html.ValidationMessageFor(model => model.solanxem)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.moi)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.moi)
+            @Html.ValidationMessageFor(model => model.moi)
+        </div>
+
+        <p>
+            <input type="submit" value="Save" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

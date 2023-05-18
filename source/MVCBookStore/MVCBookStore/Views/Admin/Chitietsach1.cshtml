@@ -1,0 +1,93 @@
+﻿@model MVCBookStore.Models.SACH
+
+@{
+    ViewBag.Title = "Chitietsach1";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Chitietsach1</h2>
+
+<fieldset>
+    <legend>SACH</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Tensach)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Tensach)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Donvitinh)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Donvitinh)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Dongia)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Dongia)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Mota)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Mota)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Hinhminhhoa)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Hinhminhhoa)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MaCD)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MaCD)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.MaNXB)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.MaNXB)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Ngaycapnhat)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Ngaycapnhat)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Soluongban)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Soluongban)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.solanxem)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.solanxem)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.moi)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.moi)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Masach }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

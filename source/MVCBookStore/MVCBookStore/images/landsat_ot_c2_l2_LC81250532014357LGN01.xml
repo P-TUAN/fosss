@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<eemetadata:scene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:eemetadata="http://earthexplorer.usgs.gov/eemetadata.xsd">
+    <eemetadata:metadataFields>
+                    <eemetadata:metadataField name="Landsat Product Identifier L2" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#landsat_product_id">
+                <eemetadata:metadataValue xsi:type="xsd:string">LC08_L2SP_125053_20141223_20200910_02_T1</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Landsat Product Identifier L1" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#landsat_product_id">
+                <eemetadata:metadataValue xsi:type="xsd:string">LC08_L1TP_125053_20141223_20200910_02_T1</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Landsat Scene Identifier" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#landsat_scene_id">
+                <eemetadata:metadataValue xsi:type="xsd:string">LC81250532014357LGN01</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Date Acquired" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#acquisition_date">
+                <eemetadata:metadataValue xsi:type="xsd:string">2014/12/23</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Collection Category" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#collection_category">
+                <eemetadata:metadataValue xsi:type="xsd:string">T1</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Collection Number" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#collection_number">
+                <eemetadata:metadataValue xsi:type="xsd:string">2</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="WRS Path" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#wrs_path">
+                <eemetadata:metadataValue xsi:type="xsd:string"> 125</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="WRS Row" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#wrs_row">
+                <eemetadata:metadataValue xsi:type="xsd:string"> 053</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Target WRS Path" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#target_wrs_path">
+                <eemetadata:metadataValue xsi:type="xsd:string"> 125</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Target WRS Row" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#target_wrs_row">
+                <eemetadata:metadataValue xsi:type="xsd:string"> 053</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Nadir/Off Nadir" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#nadir_offnadir">
+                <eemetadata:metadataValue xsi:type="xsd:string">NADIR</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Roll Angle" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#roll_angle">
+                <eemetadata:metadataValue xsi:type="xsd:string">   0.000</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Date Product Generated L2" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#date_l2_generated">
+                <eemetadata:metadataValue xsi:type="xsd:string">2020/09/10</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Date Product Generated L1" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#date_l1_generated">
+                <eemetadata:metadataValue xsi:type="xsd:string">2020/09/10</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Start Time" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#start_time">
+                <eemetadata:metadataValue xsi:type="xsd:string">2014-12-23 03:14:05.84001</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Stop Time" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#stop_time">
+                <eemetadata:metadataValue xsi:type="xsd:string">2014-12-23 03:14:37.610006</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Station Identifier" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#distribution_site">
+                <eemetadata:metadataValue xsi:type="xsd:string">LGN</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Day/Night Indicator" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#day_or_night">
+                <eemetadata:metadataValue xsi:type="xsd:string">DAY</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Land Cloud Cover" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#cloud_cover_land">
+                <eemetadata:metadataValue xsi:type="xsd:string">  54.83</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Scene Cloud Cover L1" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#cloud_cover">
+                <eemetadata:metadataValue xsi:type="xsd:string">  53.83</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Ground Control Points Model" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#ground_control_points_model">
+                <eemetadata:metadataValue xsi:type="xsd:string">235</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Ground Control Points Version" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#ground_control_points_version">
+                <eemetadata:metadataValue xsi:type="xsd:string">5</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Geometric RMSE Model" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#geometric_rmse_model">
+                <eemetadata:metadataValue xsi:type="xsd:string">    6.393</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Geometric RMSE Model X" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#geometric_rmse_model_x">
+                <eemetadata:metadataValue xsi:type="xsd:string">    4.582</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Geometric RMSE Model Y" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#geometric_rmse_model_y">
+                <eemetadata:metadataValue xsi:type="xsd:string">    4.458</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Processing Software Version" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#processing_software_version">
+                <eemetadata:metadataValue xsi:type="xsd:string">LPGS_15.3.1c</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Sun Elevation L0RA" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#sun_elevation_lora">
+                <eemetadata:metadataValue xsi:type="xsd:string">48.41232438</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Sun Azimuth L0RA" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#sun_azimuth_lora">
+                <eemetadata:metadataValue xsi:type="xsd:string">144.06644031</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="TIRS SSM Model" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#tirs_ssm_model">
+                <eemetadata:metadataValue xsi:type="xsd:string">FINAL</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Data Type L2" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#data_type_21">
+                <eemetadata:metadataValue xsi:type="xsd:string">OLI_TIRS_L2SP</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Sensor Identifier" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#sensor_id">
+                <eemetadata:metadataValue xsi:type="xsd:string">OLI_TIRS</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Satellite" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#satellite">
+                <eemetadata:metadataValue xsi:type="xsd:string">8</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Product Map Projection L1" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#map_projection_l1">
+                <eemetadata:metadataValue xsi:type="xsd:string">UTM</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="UTM Zone" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#utm_zone">
+                <eemetadata:metadataValue xsi:type="xsd:string">48</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Datum" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#datum">
+                <eemetadata:metadataValue xsi:type="xsd:string">WGS84</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Ellipsoid" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#ellipsoid">
+                <eemetadata:metadataValue xsi:type="xsd:string">WGS84</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Scene Center Lat DMS" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_degrees">
+                <eemetadata:metadataValue xsi:type="xsd:string">10&amp;deg;07&#039;19.99&quot;N</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Scene Center Long DMS" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_degrees">
+                <eemetadata:metadataValue xsi:type="xsd:string">106&amp;deg;00&#039;05.47&quot;E</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Upper Left Lat DMS" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_degrees">
+                <eemetadata:metadataValue xsi:type="xsd:string">11&amp;deg;10&#039;03&quot;N</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Upper Left Long DMS" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_degrees">
+                <eemetadata:metadataValue xsi:type="xsd:string">104&amp;deg;57&#039;54.72&quot;E</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Upper Right Lat DMS" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_degrees">
+                <eemetadata:metadataValue xsi:type="xsd:string">11&amp;deg;09&#039;37.87&quot;N</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Upper Right Long DMS" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_degrees">
+                <eemetadata:metadataValue xsi:type="xsd:string">107&amp;deg;02&#039;41.14&quot;E</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Lower Left Lat DMS" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_degrees">
+                <eemetadata:metadataValue xsi:type="xsd:string">9&amp;deg;04&#039;12.29&quot;N</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Lower Left Long DMS" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_degrees">
+                <eemetadata:metadataValue xsi:type="xsd:string">104&amp;deg;57&#039;55.51&quot;E</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Lower Right Lat DMS" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_degrees">
+                <eemetadata:metadataValue xsi:type="xsd:string">9&amp;deg;03&#039;51.98&quot;N</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Lower Right Long DMS" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_degrees">
+                <eemetadata:metadataValue xsi:type="xsd:string">107&amp;deg;01&#039;53.54&quot;E</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Scene Center Latitude" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_decimal">
+                <eemetadata:metadataValue xsi:type="xsd:string"> 10.12222</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Scene Center Longitude" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_decimal">
+                <eemetadata:metadataValue xsi:type="xsd:string"> 106.00152</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Upper Left Latitude" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_decimal">
+                <eemetadata:metadataValue xsi:type="xsd:string"> 11.16750</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Upper Left Longitude" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_decimal">
+                <eemetadata:metadataValue xsi:type="xsd:string"> 104.96520</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Upper Right Latitude" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_decimal">
+                <eemetadata:metadataValue xsi:type="xsd:string"> 11.16052</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Upper Right Longitude" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_decimal">
+                <eemetadata:metadataValue xsi:type="xsd:string"> 107.04476</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Lower Left Latitude" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_decimal">
+                <eemetadata:metadataValue xsi:type="xsd:string">  9.07008</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Lower Left Longitude" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_decimal">
+                <eemetadata:metadataValue xsi:type="xsd:string"> 104.96542</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Lower Right Latitude" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_decimal">
+                <eemetadata:metadataValue xsi:type="xsd:string">  9.06444</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+                    <eemetadata:metadataField name="Corner Lower Right Longitude" link="https://www.usgs.gov/centers/eros/science/landsat-collection-2-data-dictionary
+#coordinates_decimal">
+                <eemetadata:metadataValue xsi:type="xsd:string"> 107.03154</eemetadata:metadataValue>
+            </eemetadata:metadataField>
+            </eemetadata:metadataFields>
+    <eemetadata:browseLinks>
+                    <eemetadata:browse caption="Level-1 Reflective Browse" thumbLink="https://landsatlook.usgs.gov/gen-browse?size=thumb&amp;type=refl&amp;product_id=LC08_L1TP_125053_20141223_20200910_02_T1">
+                <eemetadata:browseLink>https://landsatlook.usgs.gov/gen-browse?size=rrb&amp;type=refl&amp;product_id=LC08_L1TP_125053_20141223_20200910_02_T1</eemetadata:browseLink>
+            </eemetadata:browse>
+            </eemetadata:browseLinks>
+    <eemetadata:overlayLinks>
+                    <eemetadata:overlay caption="Level-1 Reflective Browse" thumbLink="https://landsatlook.usgs.gov/gen-browse?size=thumb&amp;type=refl&amp;product_id=LC08_L1TP_125053_20141223_20200910_02_T1">
+                <eemetadata:overlayLink>https://landsatlook.usgs.gov/dynamic-tiler/scenes/LC08_L1TP_125053_20141223_20200910_02_T1/tiles/{z}/{x}/{y}.png?layer=natural_color</eemetadata:overlayLink>
+            </eemetadata:overlay>
+            </eemetadata:overlayLinks>
+</eemetadata:scene>
