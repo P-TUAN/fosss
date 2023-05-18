@@ -32,45 +32,6 @@
 
 </style>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black ">
-        <div class="container">
-            <a class="navbar-brand" href="@Url.Action("Index", "BookStore")" style="font-weight:bold; text-decoration: none;">
-                <img src="~/images/home.png" style="width:20px;height:20px" />  Trang chủ
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">
-                            <img src="~/images/about-us.png" style="width:20px;height:20px" />  About
-                        </a>
-                    </li>
-                    @if (Session["TenDN"] != null)
-                    {
-                        @Html.Label("Xin chao:")@Session["hoten"]
-
-                        <a class="nav-link" href="@Url.Action("DangXuat","Nguoidung")">
-                            Đăng xuất
-                        </a>
-                    }
-                    else
-                    {
-                        <a class="nav-link" href="@Url.Action("DangNhap","Nguoidung")">
-                            <img src="~/images/login.png" style="width:20px;height:20px" /> Đăng nhập
-                        </a>
-                        <a class="nav-link" href="@Url.Action("Dangky","Nguoidung")">
-                            <img src="~/images/plus-symbol-in-a-rounded-black-square.png" style="width:20px;height:20px" />  Đăng kí
-                        </a>
-                    }
-                    <li>@Html.Action("GiohangPartial", "Giohang")</li>
-                </ul>
-            </div>
-        </div>
-    </nav>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container">
